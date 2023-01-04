@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://kolesanencore.github.io/Oh-my-donats",
+  "homepage": "https://github.com/MartyniukOleg91/Oh-my-donats",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Oh-my-donats/"
