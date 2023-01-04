@@ -1,0 +1,375 @@
+.program {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #3c322d;
+  max-width: 480px;
+  
+  @media (min-width: 768px) {
+    max-width: 768px;
+    display: flex;
+  
+  }
+  @media (min-width: 1200px) {
+  
+    
+  }
+}
+
+.program__container{
+  padding-top: 28px;
+
+  @media (min-width: 768px) {
+    
+    padding-top: 81px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 100px;
+
+  }}
+
+.program__title {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  color: #3c322d;
+  margin-bottom: 8px;
+  @media (min-width: 768px) {
+    margin-left: auto;
+    text-align: start;
+    
+  }
+  @media (min-width: 1200px) {
+  
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.21;
+    color: #3c322d;
+    margin-bottom: 24px;
+  }
+}
+
+.program__wrapper {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 768px) {
+    max-width: 331px;
+    margin-left: 16px;
+    margin-right: 40;
+    padding-top: 81px;
+  }
+  @media (min-width: 1200px) {
+    display: block;
+    min-width: 400px;
+    margin-right: 70px;
+    margin-right: 20px;
+    padding-top: 161px;
+  }
+}
+
+.donat-list__item {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #3c322d;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+  @media (min-width: 768px) {
+    margin-bottom: 16px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-bottom: 18px;
+  }
+}
+
+.program__button {
+  border-color: rgba($color: #000000, $alpha: 0);
+  background: opacity($color: #000000);
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.program__hidden-text {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.circle-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+
+  @media (min-width: 768px) {
+    max-width: 350px;
+    padding-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  @media (min-width: 1200px) {
+    min-width: 730px;
+    margin-top: 0px;
+
+    padding-top: 100px;
+  }
+}
+
+.program p {
+  max-width: 500px;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.circle-list__foto1 {
+  background-image: url(../images/mobile/image1@2.png);
+  background-repeat: no-repeat;
+  background-size: 175px 175px;
+  background-position: -12px -5px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #f3848c;
+  padding-top: 70px;
+  margin-right: 20px;
+
+  @media (min-width: 768px) {
+    background-image: url(../images/tablet/image1@2.png);
+    background-size: 175px 175px;
+    width: 152px;
+    height: 152px;
+    padding-top: 60px;
+    margin-right: 33px;
+    margin-top: 0px;
+  }
+
+  @media (min-width: 1200px) {
+    background-image: url(../images/desktop/image1@2.png);
+    background-size: 288px 288px;
+    width: 288px;
+    height: 288px;
+    margin-right: 138px;
+    padding-top: 160px;
+    background-position: -1px -1px;
+  }
+}
+
+.circle-list__foto2 {
+  background-image: url(../images/mobile/image2@2.png);
+  background-repeat: no-repeat;
+  background-size: 175px 175px;
+  background-position: -12px -5px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #f3848c;
+  padding-top: 70px;
+  margin-top: 12px;
+
+  @media (min-width: 768px) {
+    margin-top: 22px;
+    background-image: url(../images/tablet/image2@2.png);
+    background-size: 175px 175px;
+    width: 152px;
+    height: 152px;
+    padding-top: 60px;
+    margin-top: 0px;
+  }
+
+  @media (min-width: 1200px) {
+    background-image: url(../images/desktop/image2@2.png);
+    background-size: 288px 288px;
+    width: 288px;
+    height: 288px;
+    margin-top: 60px;
+    padding-top: 160px;
+    background-position: -1px -1px;
+  }
+}
+
+.circle-list__foto3 {
+  background-image: url(../images/mobile/image3@2.png);
+  background-repeat: no-repeat;
+  background-size: 175px 175px;
+  background-position: -12px -5px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #f3848c;
+  padding-top: 70px;
+  margin-right: 23px;
+  margin-top: 18px;
+
+  @media (min-width: 768px) {
+    margin-top: 40px;
+    background-image: url(../images/tablet/image3@2.png);
+    background-size: 175px 175px;
+    width: 152px;
+    height: 152px;
+    padding-top: 60px;
+    margin-top: -10px;
+  }
+
+  @media (min-width: 1200px) {
+    background-image: url(../images/desktop/image3@2.png);
+    background-size: 288px 288px;
+    width: 288px;
+    height: 288px;
+    padding-top: 160px;
+    background-position: -1px -1px;
+    margin-right: 138px;
+  }
+}
+
+.circle-list__foto4 {
+  background-image: url(../images/mobile/image4@2.png);
+  background-repeat: no-repeat;
+  background-size: 175px 175px;
+  background-position: -12px -5px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #f3848c;
+  padding-top: 70px;
+  margin-top: 28px;
+
+  @media (min-width: 768px) {
+    background-image: url(../images/tablet/image4@2.png);
+    background-size: 175px 175px;
+    width: 152px;
+    height: 152px;
+    padding-top: 60px;
+    margin-top: 38px;
+  }
+
+  @media (min-width: 1200px) {
+    background-image: url(../images/desktop/image4@2.png);
+    background-size: 288px 288px;
+    width: 288px;
+    height: 288px;
+    margin-top: 40px;
+    padding-top: 160px;
+    background-position: -1px -1px;
+  }
+}
+
+.circle-list__inscription {
+  font-family: 'Montserrat Alternates';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.21;
+  text-align: center;
+  color: #ffffff;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-left: 3px;
+    padding-top: 25px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
+
+.circle-list__description {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 20px;
+
+  @media (min-width: 768px) {
+    font-size: 12px;
+    line-height: 1.21;
+    padding-left: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-top: 16px;
+    padding-left: 75px;
+  }
+}
+
+.circle-list__description-time {
+  padding-left: 45px;
+  @media (min-width: 768px) {
+    padding-left: 55px;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 120px;
+  }
+}
+
+.program__text-pictyre {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+}
+
+.program__pictyre {
+  width: 130px;
+  height: 130px;
+  display: flex;
+}
+
+.program__list {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+.donat-list__type {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 30px;
+  flex-wrap: nowrap;
+
+  @media (min-width: 1200px) {
+    margin-left: 10px;
+  }
+}
+
+.donat-list__item::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-size: 100%;
+  background-image: url('../images/donat-gif.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: -10px;
+}

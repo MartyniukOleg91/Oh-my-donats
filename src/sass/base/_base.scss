@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  color: $primary-text-color;
+  background-image: url('../images/desktop/reviews/main-bgd-el_1x-min.png'),
+    linear-gradient(
+      180.11deg,
+      #e5e2e3 10.73%,
+      #fdfefe 38.02%,
+      #e5e2e3 71.11%,
+      #fdfefe 99.91%
+    );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
